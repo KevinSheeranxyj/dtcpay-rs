@@ -1,0 +1,12 @@
+[package]
+name = "dtcpay-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["kevin.xie"]
+
+[dependencies]
+actix-web = "4.9.0"
+diesel = {version = "2.0.4", features = ["postgres"]}
+dotenvy = "0.15.7"
+serde = {version= "1.0.210", features = ["derive"]}
+serde_json = "1.0.128"

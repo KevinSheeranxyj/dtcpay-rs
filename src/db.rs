@@ -5,6 +5,7 @@ use diesel::PgConnection;
 use diesel::prelude::*;
 use dotenvy::dotenv;
 use std::env;
+use sea_orm::sqlx::PgConnection;
 
 pub fn establish_connection() -> PgConnection {
     dotenv().ok();

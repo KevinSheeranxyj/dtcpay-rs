@@ -11,5 +11,11 @@ pub struct Transaction {
 pub struct Product {
     pub id: i32,
     pub name: str,
-    pub option:
+    address: Address
+}
+
+pub struct Address {
+    pub street: String,
+    pub city: String,
+    pub zip_code: String
 }

@@ -1,8 +1,6 @@
 use std::fmt::format;
-use diesel::PgConnection;
 
 
-use diesel::prelude::*;
 use dotenvy::dotenv;
 use std::env;
 use sea_orm::sqlx::PgConnection;

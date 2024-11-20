@@ -1,2 +1,2 @@
 # dtcpay-rs
-A Financial application using actix-web &amp; diesel in Rust
+A Financial application using Axum &amp; diesel in Rust

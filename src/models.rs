@@ -7,10 +7,10 @@ pub struct Transaction {
     pub transaction_date: NaiveDateTime,
 }
 
-
+#[warn(dead_code)]
 pub struct Product {
     pub id: i32,
-    pub name: str,
+    pub name: String,
     address: Address
 }
 

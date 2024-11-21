@@ -17,6 +17,11 @@ pub trait Mock {
     fn init();
 }
 
+pub trait Jab {
+
+  fn init();
+}
+
 impl Singing for Client {
     fn init() {
         todo!();

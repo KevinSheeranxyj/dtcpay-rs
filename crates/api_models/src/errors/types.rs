@@ -31,5 +31,15 @@ impl<'a> From<&'a ApiErrorResponse> for ErrorResponse<'a> {
             stacktrace: error_info.stacktrace.as_ref(),
         }
     }
+}
+
+
+
+#[serde(tag = "type", content = "value")]
+pub enum ApiErrorResponse {
+    Unauthorized(ApiError),
+    ForbiddenCommonResource(ApiError),
+    ForbiddenPrivateResource(ApiError),
+    Conflict(ApiError),
 
 }

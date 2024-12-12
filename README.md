@@ -1,2 +1,2 @@
 # dtcpay-rs
-A Financial application using Axum &amp; diesel in Rust
+A Financial payment aggregator using Rust.
